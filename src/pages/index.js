@@ -1,5 +1,5 @@
 import React from "react"
-import { Row, Col, Container, ListGroup } from "react-bootstrap"
+import { Row, Col, Container, ListGroup } from "reactstrap"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -28,10 +28,10 @@ const IndexPage = () => (
             </ListGroup.Item>
             <ListGroup.Item
               action
-              href="https://react-bootstrap.github.io/"
+              href="https://reactstrap.github.io/"
               target="_blank"
             >
-              react-bootstrap
+              reactstrap
             </ListGroup.Item>
             <ListGroup.Item
               action
