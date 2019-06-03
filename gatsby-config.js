@@ -1,9 +1,9 @@
 module.exports = {
-  pathPrefix: "/gatsby-react-bootstrap-starter",
+  pathPrefix: "/gatsby-reactstrap-starter",
   siteMetadata: {
     title: `Gatsby React Bootstrap Starter`,
-    description: `A starter that includes react-bootstrap and react-icons, along with SASS compilation.`,
-    author: `Billy Jacoby`,
+    description: `A starter that includes reactstrap and react-icons, along with SASS compilation.`,
+    author: ``,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-react-bootstrap`,
-        short_name: `react-bootstrap`,
+        name: `gatsby-starter-reactstrap`,
+        short_name: `reactstrap`,
         start_url: `/`,
         background_color: `#20232a`,
         theme_color: `#20232a`,
